@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onKeyPressed="#keyPressed" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.demo3.GameView">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="715.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island1" fitHeight="97.0" fitWidth="154.0" layoutX="44.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/BalancingRocks4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island2" fitHeight="103.0" fitWidth="163.0" layoutX="431.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/BalancingRocks5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hero" fitHeight="47.0" fitWidth="49.0" layoutX="44.0" layoutY="58.0" onKeyPressed="#keyPressed" onMousePressed="#keyPressed" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Helmet1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="163.0" layoutX="236.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/BalancingRocks3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="67.0" layoutX="240.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="67.0" layoutX="273.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="67.0" layoutX="304.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="67.0" layoutX="336.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="67.0" layoutX="240.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="67.0" layoutX="273.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="67.0" layoutX="304.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="67.0" layoutX="336.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="52.0" fitWidth="59.0" layoutX="452.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Orc1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="52.0" fitWidth="59.0" layoutX="516.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Orc1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="52.0" fitWidth="108.0" layoutX="294.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/ChestClosed.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label" layoutX="355.0" layoutY="10.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="42.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="28.0" fitWidth="67.0" layoutX="642.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="608.0" layoutY="7.0" prefHeight="31.0" prefWidth="25.0" text="0" textFill="#ffee00">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="pause" fitHeight="31.0" fitWidth="42.0" layoutX="-1.0" layoutY="1.0" onMousePressed="#pause" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pause.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
